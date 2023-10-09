@@ -8,7 +8,6 @@ orientation = 0deg, 0deg, 0deg
 time_resolution = 0ns
 
 [dssd_5_1_1]
-role = reference
 type = dssd
 number_of_pixels = 512, 512
 pixel_pitch = 100um, 50um
@@ -27,9 +26,10 @@ orientation = 0deg, 0deg, 0deg
 spatial_resolution = 29um,14.5um
 material_budget = 0.0032021081576535286
 time_resolution = 10000s
+role = reference
 
 [RD50_MPW3_base_0]
-role = reference
+role = dut
 type = RD50_MPW3
 number_of_pixels = 64, 64
 pixel_pitch = 62um, 62um
