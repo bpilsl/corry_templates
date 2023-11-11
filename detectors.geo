@@ -26,9 +26,10 @@ orientation = 0deg, 0deg, 0deg
 spatial_resolution = 29um,14.5um
 material_budget = 0.0032021081576535286
 time_resolution = 10000s
-role = reference
+#role = reference
 
 [RD50_MPW3_base_0]
+mask_file = mask_maus.txt
 role = dut
 type = RD50_MPW3
 number_of_pixels = 64, 64
@@ -37,8 +38,10 @@ position = 0mm, 0mm, 161mm
 orientation = -90deg,0deg,0deg
 orientation_mode = "zyx"
 time_resolution = 50ns
+material_budget = 0.00320305
 
 [RD50_MPW3_piggy_0]
+mask_file = mask_maus.txt
 role = dut
 type = RD50_MPW3
 number_of_pixels = 64, 64
@@ -47,7 +50,7 @@ position = 0mm, 0mm, 195mm
 orientation = -90deg,0deg,0deg
 orientation_mode = "zyx"
 time_resolution = 50ns
-is_piggy = 1
+material_budget = 0.00320305
 
 [dssd_5_1_3]
 type = dssd
@@ -58,6 +61,7 @@ orientation = 0deg, 0deg, 0deg
 spatial_resolution = 29um,14.5um
 material_budget = 0.0032021081576535286
 time_resolution = 10000s
+role = reference
 
 [dssd_5_1_4]
 type = dssd
